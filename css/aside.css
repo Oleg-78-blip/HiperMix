@@ -1,0 +1,29 @@
+aside {
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    margin-left: 50px;
+    line-height: 2rem;
+    color: rgb(182, 158, 158);
+    /* border: 2px solid rgb(246, 19, 19); */
+    /* Повна висота вікна браузера */
+}
+
+.aside-container {
+    padding: 10px;
+}
+
+.aside-container ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-container li {
+    list-style-type: circle;
+}
+
+.aside-container li a {
+    color: burlywood;
+    text-decoration: underline;
+}

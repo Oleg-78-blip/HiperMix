@@ -1,0 +1,228 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-body: white;
+    --header-color-bg: #242424;
+    --text-color-white: rgb(237, 100, 232);
+    --text-color-red: red;
+    --text-color-coral: coral;
+    --text-color-black: black;
+    --font-family-red: "Sixtyfour Convergence", sans-serif;
+    --font-family-roboto: "Roboto", sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: .4s;
+    cursor: pointer;
+
+}
+
+/* ul li {
+    list-style-type: none;
+    display: inline-block;
+} */
+
+body {
+    color: var(--color-body);
+    font-size: 16px;
+    overflow-X: hidden;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-family: "Roboto", sans-serif;
+    background-color: dimgray;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-image: url(../images/black-bg.jpg);
+    margin-top: 50px;
+    z-index: 10;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav {
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.cirkle {
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 0 20px;
+    background-image: url(../images/hero-bg.jpg);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-size: 20px;
+}
+
+.nav-menu li a:hover {
+    transition: .8s;
+    color: darkgray;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+}
+
+.btn {
+    cursor: pointer;
+    display: none;
+}
+
+
+.line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin-block: 4px;
+}
+
+/* .img {
+    display: none;
+} */
+
+.hero {
+    width: 100%;
+    /* background-image: url(../images/hero-bg.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--font-family-roboto);
+    padding: 50px 10px;
+}
+
+.hero-info {
+    display: flex;
+}
+
+/* .text-block {
+    max-width: 100%;
+
+} */
+
+.content h2 {
+
+    margin-bottom: 25px;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+.content {
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: 2rem;
+}
+
+.content img {
+    max-width: 500px;
+    margin: 0 10px 20px;
+}
+
+.float-left {
+    float: left;
+    margin: 0 15px 15px 0;
+    height: auto;
+}
+
+.float-right {
+    float: right;
+    margin: 0 15px 15px 0;
+    height: auto;
+}
+
+.text {
+    margin-bottom: 100px;
+}
+
+.text2 h2 {
+    margin: 100px auto;
+}
+
+.wikipedia {
+    color: rgb(238, 189, 189);
+    text-decoration: underline;
+}
+
+/* .owl-carousel {
+    width: 400px;
+    z-index: 1;
+} */
+
+/* 
+.owl-carousel img {
+    max-width: 500px;
+    width: 100%;
+    height: 350px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+.owl-carousel .owl-stage-outer {
+    box-shadow: 10px 10px 0px 0px rgba(255, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(255, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(255, 0, 0, 0.75);
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+.owl-theme .owl-nav,
+.owl-theme .owl-dots {
+    max-width: 500px;
+}
+
+.owl-dots {
+    display: none;
+} */
+
+
+.right-aside {
+    z-index: 1;
+} 
+
+.papua-text img {
+    max-width: 100%;
+}
