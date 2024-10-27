@@ -221,6 +221,7 @@ body {
 
 .right-aside {
     z-index: 1;
+    max-width: 300px;
 } 
 
 .papua-text img {
