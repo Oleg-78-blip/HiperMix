@@ -7,7 +7,7 @@
 }
 
 :root {
-    --color-body: white;
+    --color-body: rgb(59, 55, 55);
     --header-color-bg: #242424;
     --text-color-white: rgb(237, 100, 232);
     --text-color-red: red;
@@ -22,7 +22,10 @@ a {
     text-decoration: none;
     transition: .4s;
     cursor: pointer;
+}
 
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(107, 95, 75);
 }
 
 /* ul li {
@@ -36,12 +39,14 @@ body {
     overflow-X: hidden;
     font-family: "Sixtyfour Convergence", sans-serif;
     font-family: "Roboto", sans-serif;
-    background-color: dimgray;
+    background: rgb(254, 253, 248);
+    background: radial-gradient(circle, rgba(254, 253, 248, 1) 0%, rgba(216, 216, 212, 1) 1%, rgba(126, 126, 126, 1) 81%);
 }
 
 .header {
     position: sticky;
     top: 0;
+    color: aliceblue;
     background-image: url(../images/black-bg.jpg);
     margin-top: 50px;
     z-index: 10;
@@ -67,9 +72,10 @@ body {
 
 .cirkle {
     border-radius: 50%;
-    border: 1px solid red;
+    border: 6px solid gray;
     padding: 0 20px;
-    background-image: url(../images/hero-bg.jpg);
+    background: rgb(254, 253, 248);
+    background: radial-gradient(circle, rgba(254, 253, 248, 1) 0%, rgba(238, 225, 94, 1) 30%, rgba(216, 214, 212, 1) 86%, rgba(155, 155, 154, 1) 100%);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -77,6 +83,7 @@ body {
 }
 
 .logo {
+    color: rgb(84, 57, 47);
     font-size: 20px;
 }
 
@@ -219,9 +226,6 @@ body {
 } */
 
 
-.right-aside {
-    z-index: 1;
-} 
 
 .papua-text img {
     max-width: 100%;
