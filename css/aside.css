@@ -7,7 +7,7 @@ aside {
     height: auto;
     margin-left: 50px;
     line-height: 2rem;
-    color: rgb(255, 255, 255);
+    color: var(--color-body);
 }
 
 .aside-container {
