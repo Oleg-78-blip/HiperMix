@@ -39,10 +39,10 @@ body {
     overflow-X: hidden;
     font-family: "Sixtyfour Convergence", sans-serif;
     font-family: "Roboto", sans-serif;
-    /* background: rgb(254, 253, 248);
+ background: rgb(254, 253, 248);
     background: radial-gradient(circle, rgba(254, 253, 248, 1) 0%, rgba(216, 216, 212, 1) 1%, rgba(126, 126, 126, 1) 81%); */
-    background: rgb(167, 167, 167);
-    background: radial-gradient(circle, rgba(167, 167, 167, 1) 59%, rgba(116, 114, 112, 1) 100%);
+    
+    
 }
 
 .header {
@@ -158,7 +158,11 @@ body {
 
 .content img {
     max-width: 500px;
+    width: 100%;
     margin: 0 10px 20px;
+    filter: grayscale(60%);
+    -webkit-filter: grayscale(60%);
+    -moz-filter: grayscale(50%);
 }
 
 .float-left {
