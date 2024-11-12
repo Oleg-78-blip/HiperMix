@@ -53,8 +53,9 @@
    .contact-form {
        display: flex;
        justify-content: space-evenly;
-       background: rgb(216, 216, 212);
-       background: radial-gradient(circle, rgba(216, 216, 212, 1) 39%, rgba(254, 253, 248, 1) 73%, rgba(126, 126, 126, 1) 99%);
+       /* background: rgb(216, 216, 212);
+       background: radial-gradient(circle, rgba(216, 216, 212, 1) 39%, rgba(254, 253, 248, 1) 73%, rgba(126, 126, 126, 1) 99%); */
+       background: url(../images/footer-australia-bg.jpg);
        padding: 30px;
        border-radius: 8px;
        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
