@@ -1,10 +1,123 @@
-body {
-    color: rgb(119, 12, 12);
-    background-color: rgb(150, 200, 150);
+.papua-bg {
+    background: url(../images-papua/papua-bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+/* 
 .header {
     background: rgb(23, 23, 22);
     color: rgb(150, 200, 150);
+} */
+
+.header {
+    background: inherit;
 }
 
+.title-papua {
+    color: rgb(7, 95, 62);
+}
+
+
+/* .body h1, h2, h3, h4, h5, h6 {
+    color: #3c7d5a !important;
+} */
+
+.hero-papua p {
+    padding-inline: 15px;
+    border-radius: 8px;
+    color: rgb(2, 2, 2);
+    background-color: rgba(158, 238, 156, 0.169);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.papua-aside {
+    border: none;
+    background: linear-gradient(195deg, #f7ff0a3d, #00bd8b3b, #0a617b3f);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    margin-left: 50px;
+    line-height: 2rem;
+    color: var(--color-body);
+    /* background: linear-gradient(195deg, #f7ff0a, #00bd8a, #0a607b); */
+    /* made at https://learnui.design/tools/gradient-generator.html */
+}
+
+.papua-aside h2 {
+    text-shadow: 1px 0px 8px rgba(244, 231, 231, 0.91);
+}
+
+.papua-aside p {
+    background: none;
+    color: rgb(74, 36, 44);
+}
+
+.papua-form {
+    color: rgb(134, 149, 61);
+    font-size: 20px;
+    border: none !important;
+}
+
+.wrapper-carousel {
+    padding: 40px 0;
+    width: 100%;
+    background-color: rgba(16, 17, 16, 0.169);
+    text-align: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel img {
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    filter: sepia(15%) opacity(89%) contrast(88%);
+    -webkit-filter: sepia(15%) opacity(89%) contrast(88%);
+    -moz-filter: sepia(15%) opacity(89%) contrast(88%);
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.control {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}

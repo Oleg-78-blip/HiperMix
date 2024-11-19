@@ -7,6 +7,7 @@
 }
 
 :root {
+    --body-bg: radial-gradient(circle at 50% 50%, #fff11c, #e6ae27, #ffe811);
     --color-body: rgb(59, 55, 55);
     --header-color-bg: #242424;
     --text-color-white: rgb(237, 100, 232);
@@ -24,14 +25,9 @@ a {
     cursor: pointer;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: rgb(107, 95, 75);
+.main-hero h1, h2, h3, h4, h5, h6 {
+    color: #776f3c;
 }
-
-/* ul li {
-    list-style-type: none;
-    display: inline-block;
-} */
 
 .body-bg {
     color: var(--color-body);
@@ -39,19 +35,16 @@ h1, h2, h3, h4, h5, h6 {
     overflow-X: hidden;
     font-family: "Sixtyfour Convergence", sans-serif;
     font-family: "Roboto", sans-serif;
-    background: url(../images/photo-dlya-saytu.jpg);
+    background: var(--body-bg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: url(../images/background-ausralia.jpg); */
-    /* background: rgb(255, 255, 255);
-    background: radial-gradient(circle, rgba(255, 255, 255, 1) 1%, rgba(206, 218, 226, 1) 61%, rgba(241, 240, 229, 1) 97%, rgba(106, 181, 227, 1) 99%); */
 }
 
 .header {
     position: sticky;
     top: 0;
     color: aliceblue;
-    background-image: url(../images/black-bg.jpg);
+    /* background-image: url(../images/black-bg.jpg); */
     margin-top: 50px;
     z-index: 10;
 }
@@ -67,17 +60,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav {
-    height: 57px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
+
+
+
 .cirkle {
     border-radius: 50%;
     border: 6px solid gray;
-    padding: 0 20px;
+    padding: 8px 20px;
     background: rgb(254, 253, 248);
     background: radial-gradient(circle, rgba(254, 253, 248, 1) 0%, rgba(238, 225, 94, 1) 30%, rgba(216, 214, 212, 1) 86%, rgba(155, 155, 154, 1) 100%);
     -webkit-border-radius: 50%;
@@ -89,6 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
     color: rgb(84, 57, 47);
     font-size: 20px;
+    font-weight: 700;
+    color: #b89b07;
 }
 
 .nav-menu {
@@ -98,9 +95,20 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
 }
 
-.nav-menu li a:hover {
+.nav-link {
+    color: white;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: blue;
+    border-bottom: 2px solid blue;
+    text-decoration: underline;
+}
+
+.nav-link:hover {
     transition: .8s;
-    color: darkgray;
+    color: #ffe811;
     -webkit-transition: .8s;
     -moz-transition: .8s;
     -ms-transition: .8s;
@@ -112,7 +120,6 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
-
 .line {
     display: block;
     width: 30px;
@@ -120,7 +127,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: black;
     margin-block: 4px;
 }
-
 
 .hero {
     width: 100%;
@@ -141,7 +147,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .image-container {
-    border: 5px solid rgb(110, 109, 109);
+    border: 15px solid rgb(255 196 43);
+    box-shadow: rgb(247 236 134);
     border-radius: 10px;
     width: 500px;
     height: 323px;
@@ -154,9 +161,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .image-container img {
-    filter: grayscale(60%);
-    -webkit-filter: grayscale(60%);
-    -moz-filter: grayscale(50%);
     width: 100%;
     transition: .5s;
     -webkit-transition: .5s;
@@ -186,16 +190,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
 }
 
-
-/* .content img {
-    max-width: 500px;
-    width: 100%;
-    margin: 0 10px 20px;
-    filter: grayscale(60%);
-    -webkit-filter: grayscale(60%);
-    -moz-filter: grayscale(50%);
-} */
-
 .float-left {
     float: left;
     margin: 0 15px 15px 0;
@@ -221,6 +215,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
+.contact-form
 /* .owl-carousel {
     width: 400px;
     z-index: 1;

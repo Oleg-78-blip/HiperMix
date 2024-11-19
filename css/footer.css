@@ -53,9 +53,11 @@
    .contact-form {
        display: flex;
        justify-content: space-evenly;
-       background: rgb(216, 216, 212);
-       background: radial-gradient(circle, rgba(216, 216, 212, 1) 39%, rgba(254, 253, 248, 1) 73%, rgba(126, 126, 126, 1) 99%);
+       background: radial-gradient(circle at 50% 50%, #ede57e42, #9fc5533a, #11e3ff43);
+       /* background: rgb(216, 216, 212);
+       background: radial-gradient(circle, rgba(216, 216, 212, 1) 39%, rgba(254, 253, 248, 1) 73%, rgba(126, 126, 126, 1) 99%); */
        /* background: url(../images/photo-dlya-saytu.jpg); */
+       border: 15px solid #cac15e1e;
        background-repeat: no-repeat;
        background-size: cover;
        padding: 30px;
@@ -89,13 +91,13 @@
        box-sizing: border-box;
    }
 
-   .contact-form input[type="text"]:focus,
+   /* .contact-form input[type="text"]:focus,
    .contact-form input[type="email"]:focus,
    .contact-form textarea:focus {
        border-color: #007bff;
        outline: none;
        box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
-   }
+   } */
 
    .contact-form textarea {
        resize: vertical;

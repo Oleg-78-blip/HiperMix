@@ -27,21 +27,21 @@
     <link rel="stylesheet" href="./css/media.css">
 </head>
 
-<body>
+<body class="papua-bg">
     <div class="wrapper wrapper-papua">
-        <header class="header">
+        <header class="header header-papua">
             <div class="container">
                 <div class="header-inner">
                     <nav class="nav">
 
                         <div class="cirkle rotateOut">
-                            <h1 class="logo"><a href="./index.html">HyperMix</a></h1>
+                            <a href="./index.html" class="logo">HyperMix</a>
                         </div>
                         <ul class="nav-menu">
-                            <li><a href="./index.html">головна</a></li>
-                            <li><a href="#">про автора</a></li>
-                            <li><a href="#">контакти</a></li>
-                            <li><a href="#">про сайт</a></li>
+                            <li><a href="./index.html" class="nav-link">головна</a></li>
+                            <li><a href="#" class="nav-link">про автора</a></li>
+                            <li><a href="#" class="nav-link">контакти</a></li>
+                            <li><a href="#" class="nav-link">про сайт</a></li>
                         </ul>
 
                         <div class="btn">
@@ -59,7 +59,7 @@
                 <div class="hero-info info-papua">
 
                     <div class="content">
-                        <h2>Папуа Нова Гвінея: Земля культурного різноманіття та дикої природи</h2>
+                        <h1 class="title-papua">Папуа Нова Гвінея: Земля культурного різноманіття та дикої природи</h1>
                         <p>Папуа Нова Гвінея (ПНГ) — це країна, яка вражає своєю природною красою, культурним багатством
                             і унікальним способом
                             життя. Розташована на східній половині острова Нова Гвінея, в західній частині Тихого
@@ -67,7 +67,7 @@
                             досліджених та найзагадковіших країн світу.
                         </p>
 
-                        <h5>Природа і біорізноманіття</h5>
+                        <h3 class="subtitle-papua">Природа і біорізноманіття</h3>
                         <p>Папуа Нова Гвінея відома своєю надзвичайно різноманітною екосистемою. Тут можна знайти густі
                             тропічні ліси, високі гори,
                             мальовничі пляжі і коралові рифи, що населяються унікальними видами рослин і тварин. На
@@ -82,7 +82,7 @@
                             робить її ідеальним місцем для
                             біологів та дослідників природи.
                         </p>
-                        <h5>Культура і Традиції</h5>
+                        <h3 class="subtitle-papua">Культура і Традиції</h3>
                         <p>Однією з головних особливостей Папуа Нової Гвінеї є її виняткове культурне різноманіття. На
                             території країни проживають
                             понад 800 різних народностей, які розмовляють більше ніж 800 мовами. Це робить ПНГ однією з
@@ -96,7 +96,7 @@
                             Під час цих заходів можна
                             побачити розкішні костюми з пір'я райських птахів, традиційні маски та ритуальні танці.
                         </p>
-                        <h5>Виклики та розвиток</h5>
+                        <h3 class="subtitle-papua">Виклики та розвиток</h3>
                         <p>Незважаючи на своє багатство природних ресурсів і культурне надбання, Папуа Нова Гвінея
                             стикається з низкою викликів. Це
                             одна з найменш розвинених країн світу, де багато районів є важкодоступними, а інфраструктура
@@ -111,7 +111,7 @@
                             сільському господарстві, що
                             також становить важливу частину життя місцевих мешканців.
                         </p>
-                        <h5>Підсумок</h5>
+                        <h3 class="subtitle-papua">Підсумок</h3>
                         <p>Папуа Нова Гвінея — це дивовижна країна, яка поєднує в собі невинність природи і різнобарвну
                             культурну спадщину. Вона
                             залишається одним з небагатьох місць на планеті, де можна відчути подих справжньої дикої
@@ -120,9 +120,38 @@
                             враження, ПНГ є ідеальним місцем
                             для відкриттів і пригод.</p>
 
+                            <div class="wrapper-carousel">
+                            <div class="carousel">
+                                <div class="slides">
+                                    <div class="slide">
+                                        <img src="./images-papua/tradyciyne-selo-v-papua.jpg" title="Традиційне село - Папуа Нова Гвінея" alt="Зображення 1" style="width:100%">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="./images-papua/doroga-v-gorach.jpg" title="Дорога в горах" alt="Зображення 2" style="width:100%">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="./images-papua/voiny-plemeni-dani.jpg" title="Воїни племені Дані" alt="Зображення 3" style="width:100%">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="./images-papua/produktoviy-bazar.jpg" title="Продуктовий базар" alt="Зображення 3" style="width:100%">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="./images-papua/rika-v-dgunglyach.jpg" title="Ріка в джунглях" alt="Зображення 3" style="width:100%">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="./images-papua/chatynka-na-plyagi.jpg" title="Хатинка на пляжі" alt="Зображення 3" style="width:100%">
+                                    </div>
+                                </div>
+                                <div class="controls">
+                                    <button class="control prev" onclick="moveSlide(-1)">❮</button>
+                                    <button class="control next" onclick="moveSlide(1)">❯</button>
+                                </div>
+                            </div>
+                            </div>
+
                     </div>
 
-                    <aside class="right-aside">
+                    <aside class="right-aside papua-aside">
                         <div class="aside-container">
                             <p>Океанія — це географічний регіон, що охоплює численні острови та архіпелаги в Тихому
                                 океані.
@@ -130,7 +159,7 @@
                                 складається з чотирьох основних частин:</p>
                             <h2>1. Меланезія</h2>
                             <ul>
-                                <li><a href="./papua.html">Папуа Нова Гвінея</a></li>
+                                <li><a href="./papua.html" class="nav-link">Папуа Нова Гвінея</a></li>
                                 <li><a href="./fiji.html">Фіджі</a></li>
                                 <li><a href="#">Соломонові Острови</a></li>
                                 <li><a href="#">Вануату</a></li>
@@ -180,7 +209,7 @@
 
                          
                 </div>
-                    <div class="contact-form">
+                    <div class="contact-form papua-form">
                         <div class="block-menu">
                             <h3>Контакти</h3>
                             <ul class="footer-menu">

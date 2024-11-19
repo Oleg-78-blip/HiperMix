@@ -1,9 +1,8 @@
-.fiji-bg {
-    background-color: rgb(226, 226, 226) !important;
+.solomon-bg {
+    background-color: cadetblue;
 }
 
-.aside-fiji {
-    background-image: url(../images-fiji/aside-fiji.jpeg);
+.solomon-aside {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
