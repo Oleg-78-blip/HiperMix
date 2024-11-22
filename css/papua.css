@@ -1,7 +1,10 @@
 .papua-bg {
-    background: url(../images-papua/papua-bg-2.jpg);
-    background-repeat: no-repeat;
+    background: rgb(1, 115, 110);
+    /* background: radial-gradient(circle, rgba(1, 115, 110, 1) 24%, rgba(3, 105, 115, 1) 44%, rgba(50, 115, 110, 1) 88%); */
+    background: url(../images-papua/papua-bg-3.jpg);
+    background-repeat: no-repea;
     background-size: cover;
+    height: 100vh;
 }
 
 /* 
@@ -22,6 +25,19 @@
 /* .body h1, h2, h3, h4, h5, h6 {
     color: #3c7d5a !important;
 } */
+
+.hero-papua{
+    position: relative;
+}
+
+.images::after {
+    position: absolute;
+    content: url(../images-papua/map-world.png);
+    width: 1000px;
+    opacity: .5;
+    left: 0;
+    z-index: -1;
+}
 
 .hero-papua p {
     padding-inline: 15px;
@@ -60,7 +76,8 @@
 }
 
 .papua-form {
-    color: rgb(134, 149, 61);
+    /* color: rgb(134, 149, 61); */
+    background-image: url(../images-papua/footer-papua.jpg) !important;
     font-size: 20px;
     border: none !important;
 }

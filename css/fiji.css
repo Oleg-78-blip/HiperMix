@@ -1,5 +1,9 @@
 .fiji-bg {
-    background-color: rgb(226, 226, 226) !important;
+    width: 100%;
+    background-image: url(../images-fiji/fiji-bg-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(90, 132, 41);
 }
 
 .aside-fiji {
@@ -13,4 +17,17 @@
     margin-left: 50px;
     line-height: 2rem;
     color: var(--color-body);
+    opacity: .7;
+}
+
+.fiji-images {
+    border: none !important;
+}
+
+.contact-form-fiji {
+    border: none !important;
+}
+
+.footer-menu-fiji {
+    color: azure;
 }
