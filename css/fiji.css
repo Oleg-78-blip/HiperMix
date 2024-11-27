@@ -1,9 +1,24 @@
 .fiji-bg {
+    /* display: flex; */
     width: 100%;
     background-image: url(../images-fiji/fiji-bg-7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(90, 132, 41);
+    text-align: center;
+    overflow-x: hidden;
+}
+
+
+.button-fiji-history-more {
+    border-radius: 8pxx;
+    background-color: darkgrey;
+    padding: 10px 25px;
+    max-width: max-content;
+    -webkit-border-radius: 8pxx;
+    -moz-border-radius: 8pxx;
+    -ms-border-radius: 8pxx;
+    -o-border-radius: 8pxx;
 }
 
 .aside-fiji {
@@ -13,7 +28,7 @@
     border-radius: 8px;
     width: 100%;
     min-width: 300px;
-    height: auto;
+    height: fit-content;
     margin-left: 50px;
     line-height: 2rem;
     color: var(--color-body);

@@ -1,72 +1,98 @@
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1200px) {}
 
-
-    .nav-menu {
-        position: absolute;
-        background: rgb(216, 216, 212);
-        background: radial-gradient(circle, rgba(216, 216, 212, 1) 39%, rgba(254, 253, 248, 1) 73%, rgba(126, 126, 126, 1) 99%);
-        flex-direction: column;
-        width: 100vw;
-        height: 100vh;
-        padding-top: 50px;
-        top: 58px;
-        left: 100%;
-        z-index: 100;
-        box-shadow: 10px 10px rgb(206, 204, 204);
-        color: var(--header-color-bg);
-        transition: .8s;
-        -webkit-transition: .8s;
-        -moz-transition: .8s;
-        -ms-transition: .8s;
-        -o-transition: .8s;
-    }
-
-    .nav-menu li a {
-        margin-top: 50px;
-    }
-
-    .btn {
-        display: block;
-    }
-
-    .line {
-        background-color: #eee;
-    }
-
-    .active {
-        left: 10px;
-        cursor: pointer;
-    }
-
-    .active .line:nth-child(2) {
-        opacity: 0;
-    }
-
-    /* .img {
-        width: 300px;
-        height: 350px;
-        display: block;
-        position: absolute;
-        top: 150p;
-        left: 100%;
+@media screen and (max-width:950px) {
+    /* .container {
+        overflow-x: hidden;
     } */
 
-    .active .line:nth-child(1) {
-        transform: translateY(7px)rotate(45deg);
-        -webkit-transform: translateY(7px)rotate(45deg);
-        -moz-transform: translateY(7px)rotate(45deg);
-        -ms-transform: translateY(7px)rotate(45deg);
-        -o-transform: translateY(7px)rotate(45deg);
+    .wrapper {
+        overflow: hidden;
     }
 
-    .active .line:nth-child(3) {
-        transform: translateY(-7px)rotate(-45deg);
-        -webkit-transform: translateY(-7px)rotate(-45deg);
-        -moz-transform: translateY(-7px)rotate(-45deg);
-        -ms-transform: translateY(-7px)rotate(-45deg);
-        -o-transform: translateY(-7px)rotate(-45deg);
+    .hero-info {
+        display: flex;
+        flex-direction: column;
     }
 
+    .right-aside,
+    .main-aside {
+        max-width: 100%;
+        margin-inline: 0;
+        border: 2px solid #eee;
+        height: 500px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .info-papua {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .wrapper-carousel {
+        max-width: 500px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .contact-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer form {
+        max-width: 700px;
+    }
 }
 
-@media screen and (max-width:800px) {}
+/* Для мобільних пристроїв */
+@media (max-width: 768px) {
+    .burger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        width: 100%;
+        background-color: #33333387;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+        position: absolute;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+}
+
+/* Анімація бургер-меню */
+.burger.toggle span:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+}
+
+.burger.toggle span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.toggle span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
+}
+
+.navbar {
+    position: static;
+}
+
+.nav-links {
+    position: static;
+}
+
+@media screen and (max-width:0px) {}

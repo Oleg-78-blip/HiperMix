@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TAURANGA</title>
+    <meta name="description"
+        content=" Дізнайтеся про унікальну природу, традиції та подорожі в Папуа-Новій Гвінеї. Ідеї для туристів та цікаві факти." />
+    <title>Папуа-Нова Гвінея: культура, природа та факти для подорожей</title>
     <link rel="icon" type="image/png" href="./favicons//favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/svg+xml" href="./favicons//favicon.svg">
     <link rel="shortcut icon" href="./favicons//favicon.ico">
@@ -25,37 +27,40 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/media.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EEHTEKPGN0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-EEHTEKPGN0');
+    </script>
 </head>
 
 <body class="papua-bg">
     <div class="wrapper wrapper-papua">
-        <header class="header header-papua">
-            <div class="container">
-                <div class="header-inner">
-                    <nav class="nav">
-
-                        <div class="cirkle rotateOut">
-                            <a href="./index.html" class="logo">HyperMix</a>
-                        </div>
-                        <ul class="nav-menu">
-                            <li><a href="./index.html" class="nav-link">головна</a></li>
-                            <li><a href="#" class="nav-link">про автора</a></li>
-                            <li><a href="#" class="nav-link">контакти</a></li>
-                            <li><a href="#" class="nav-link">про сайт</a></li>
-                        </ul>
-
-                        <div class="btn">
-                            <span class="line"></span>
-                            <span class="line"></span>
-                            <span class="line"></span>
-                        </div>
-                    </nav>
+        <header class="header">
+            <nav class="navbar">
+                <div class="cirkle rotateOut">
+                    <a href="./index.html" class="logo">HyperMix</a>
                 </div>
-            </div>
+                <div class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </header>
 
         <section class="hero hero-papua">
             <div class="container">
+                <div class="baner">Сайт перебуває в процесі розробки</div>
                 <div class="images"></div>
                 <div class="hero-info info-papua">
 
@@ -120,39 +125,72 @@
                             стародавні традиції живуть поруч з сучасними викликами. Для тих, хто шукає автентичні
                             враження, ПНГ є ідеальним місцем
                             для відкриттів і пригод.</p>
-
-                            <div class="wrapper-carousel">
-                            <div class="carousel">
-                                <div class="slides">
-                                    <div class="slide">
-                                        <img src="./images-papua/tradyciyne-selo-v-papua.jpg" title="Традиційне село - Папуа Нова Гвінея" alt="Традиційне село - Папуа Нова Гвінея" style="width:100%">
-                                    </div>
-                                    <div class="slide">
-                                        <img src="./images-papua/doroga-v-gorach.jpg" title="Дорога в горах" alt="Дорога в горах" style="width:100%">
-                                    </div>
-                                    <div class="slide">
-                                        <img src="./images-papua/voiny-plemeni-dani.jpg" title="Воїни племені Дані" alt="Воїни племені Дані" style="width:100%">
-                                    </div>
-                                    <div class="slide">
-                                        <img src="./images-papua/produktoviy-bazar.jpg" title="Продуктовий базар" alt="Продуктовий базар" style="width:100%">
-                                    </div>
-                                    <div class="slide">
-                                        <img src="./images-papua/rika-v-dgunglyach.jpg" title="Ріка в джунглях" alt="Ріка в джунглях" style="width:100%">
-                                    </div>
-                                    <div class="slide">
-                                        <img src="./images-papua/chatynka-na-plyagi.jpg" title="Хатинка на пляжі" alt="Хатинка на пляжі" style="width:100%">
-                                    </div>
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <div class="carousel-slide"><img src="./images-papua/chatynka-na-plyagi.jpg"
+                                        alt="Slide 1"></div>
+                                <div class="carousel-slide"><img src="./images-papua/doroga-v-gorach.jpg" alt="Slide 2">
                                 </div>
-                                <div class="controls">
-                                    <button class="control prev" onclick="moveSlide(-1)">❮</button>
-                                    <button class="control next" onclick="moveSlide(1)">❯</button>
-                                </div>
+                                <div class="carousel-slide"><img src="./images-papua/oliyna-palma.jpg"
+                                        alt="Slide 3"></div>
+                                <div class="carousel-slide"><img src="./images-papua/produktoviy-bazar.jpg"
+                                        alt="Slide 3"></div>
+                                <div class="carousel-slide"><img src="./images-papua/rika-v-dgunglyach.jpg"
+                                        alt="Slide 3"></div>
+                                <div class="carousel-slide"><img src="./images-papua/voiny-plemeni-dani.jpg"
+                                        alt="Slide 3"></div>
+                                <div class="carousel-slide"><img src="./images-papua/ozbroyeni-voiny-papua.jpg"
+                                        alt="Slide 4"></div>
+                                <div class="carousel-slide"><img src=""
+                                        alt="Slide 3"></div>
                             </div>
-                            </div>
+                            <button class="carousel-button prev">❮</button>
+                            <button class="carousel-button next">❯</button>
+                        </div>
 
                     </div>
+<!-- скрипт до слайдера -->
+                    <script>
+                        document.addEventListener("DOMContentLoaded", () => {
+                                const track = document.querySelector(".carousel-track");
+                                const slides = Array.from(track.children);
+                                const prevButton = document.querySelector(".carousel-button.prev");
+                                const nextButton = document.querySelector(".carousel-button.next");
+                                const slideWidth = slides[0].getBoundingClientRect().width;
 
-                    <aside class="right-aside papua-aside">
+                                let currentIndex = 0;
+
+                                // Arrange slides next to each other
+                                slides.forEach((slide, index) => {
+                                    slide.style.left = `${index * 100}%`;
+                                });
+
+                                const moveToSlide = (index) => {
+                                    track.style.transform = `translateX(-${index * 100}%)`;
+                                    currentIndex = index;
+                                };
+
+                                // Event listeners for buttons
+                                nextButton.addEventListener("click", () => {
+                                    if (currentIndex < slides.length - 1) {
+                                        moveToSlide(currentIndex + 1);
+                                    } else {
+                                        moveToSlide(0); // Loop to the first slide
+                                    }
+                                });
+
+                                prevButton.addEventListener("click", () => {
+                                    if (currentIndex > 0) {
+                                        moveToSlide(currentIndex - 1);
+                                    } else {
+                                        moveToSlide(slides.length - 1); // Loop to the last slide
+                                    }
+                                });
+                            });
+
+                    </script>
+<!-- кінець скрипта -->
+                    <aside class="right-aside papua-aside main-aside">
                         <div class="aside-container">
                             <p>Океанія — це географічний регіон, що охоплює численні острови та архіпелаги в Тихому
                                 океані.
@@ -188,15 +226,6 @@
                                 <li><a href="#">Гаваї (штат США)</a></li>
                                 <li><a href="#">Острів Пасхи (частина Чилі)</a></li>
                             </ul>
-                            <h2>2. Мікронезія</h2>
-                            <ul>
-                                <li><a href="#">Палау</a></li>
-                                <li><a href="#">Маршаллові Острови</a></li>
-                                <li><a href="#">Кірибаті</a></li>
-                                <li><a href="#">Федеративні Штати Мікронезії</a></li>
-                                <li><a href="#">Гуам (територія США)</a></li>
-                                <li><a href="#">Північні Маріанські Острови (територія США)</a></li>
-                            </ul>
                         </div>
                     </aside>
 
@@ -208,30 +237,30 @@
             <div class="container">
                 <div class="footer-content">
 
-                         
+
                 </div>
-                    <div class="contact-form papua-form">
-                        <div class="block-menu">
-                            <h3>Контакти</h3>
-                            <ul class="footer-menu">
-                                <li><a href="tel:+380989786384">телефон:+380989786384</a></li>
-                                <li><a href="#">про автора</a></li>
-                                <li><a href="#">контакти</a></li>
-                                <li><a href="#">про сайт</a></li>
-                            </ul>
-                        </div>
-                        <form action="#" method="post">
-                            <label for="name">Ім'я</label>
-                            <input type="text" id="name" name="name" required>
-                    
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                    
-                            <label for="message">Повідомлення</label>
-                            <textarea id="message" name="message" required></textarea>
-                    
-                            <button type="submit">Надіслати</button>
-                        </form>
+                <div class="contact-form papua-form">
+                    <div class="block-menu">
+                        <h3>Контакти</h3>
+                        <ul class="footer-menu">
+                            <li><a href="tel:+380989786384">телефон:+380989786384</a></li>
+                            <li><a href="#">про автора</a></li>
+                            <li><a href="#">контакти</a></li>
+                            <li><a href="#">про сайт</a></li>
+                        </ul>
+                    </div>
+                    <form action="#" method="post">
+                        <label for="name">Ім'я</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Повідомлення</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <button type="submit">Надіслати</button>
+                    </form>
                 </div>
             </div>
         </footer>
@@ -240,7 +269,7 @@
             crossorigin="anonymous"></script>
         <script src="./js/jcuery.min.js"></script>
         <script src="./js/owl.carousel.min.js"></script>
-        <script src="./js/main.js"></script>
+        <script src="./main.js/index.js"></script>
 </body>
 
 </html>
