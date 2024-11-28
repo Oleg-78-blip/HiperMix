@@ -54,7 +54,7 @@
    .contact-form {
        display: flex;
        justify-content: space-evenly;
-       background: radial-gradient(circle at 50% 50%, #ede57e42, #9fc5533a, #11e3ff43);
+       background: radial-gradient(circle at 110% 80%, #ede57e42, #9fc5533a, #11e3ff43);
        /* background: rgb(216, 216, 212);
        background: radial-gradient(circle, rgba(216, 216, 212, 1) 39%, rgba(254, 253, 248, 1) 73%, rgba(126, 126, 126, 1) 99%); */
        /* background: url(../images/photo-dlya-saytu.jpg); */
