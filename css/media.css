@@ -51,6 +51,7 @@
 @media (max-width: 768px) {
     .burger {
         display: flex;
+        margin-right: 100px;
     }
 
     .nav-links {
@@ -72,10 +73,20 @@
     .nav-links li {
         margin: 15px 0;
     }
-}
 
-/* Анімація бургер-меню */
-.burger.toggle span:nth-child(1) {
+    .navigaciyaposaytu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .nav-links-canada {
+        margin-top: -30px;
+        z-index: 100;
+    }
+
+    /* Анімація бургер-меню */
+    /* .burger.toggle span:nth-child(1) {
     transform: rotate(45deg) translateY(8px);
 }
 
@@ -93,6 +104,12 @@
 
 .nav-links {
     position: static;
-}
+} */
 
-@media screen and (max-width:0px) {}
+    @media screen and (max-width:535px) {
+
+        /* .nav-links-canada {
+        margin-top: 240px;
+        z-index: 100;
+    } */
+    }
