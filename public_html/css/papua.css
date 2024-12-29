@@ -1,0 +1,124 @@
+.papua-bg {
+    background: rgb(1, 115, 110);
+    background: url(../images-papua/papua-bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/*
+
+.header {
+    background: inherit;
+}
+
+.title-papua {
+    color: rgb(7, 95, 62);
+}
+
+.hero-papua {
+    position: relative;
+}
+
+.images::after {
+    position: absolute;
+    content: url(../images-papua/map-world.png);
+    width: 1000px;
+    opacity: .5;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-papua p {
+    padding-inline: 15px;
+    border-radius: 8px;
+    color: rgb(2, 2, 2);
+    background-color: rgba(158, 238, 156, 0.169);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.papua-aside {
+    border: none;
+    background: linear-gradient(195deg, #f7ff0a3d, #00bd8b3b, #0a617b3f);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    width: 100%;
+    min-width: 300px;
+    height: fit-content;
+    margin-left: 50px;
+    line-height: 2rem;
+    color: var(--color-body);
+}
+
+.papua-aside h2 {
+    text-shadow: 1px 0px 8px rgba(244, 231, 231, 0.91);
+}
+
+.papua-aside p {
+    background: none;
+    color: rgb(74, 36, 44);
+}
+
+.papua-form {
+    background-repeat: repeat;
+    background-size: cover;
+    font-size: 20px;
+    border: none !important;
+}
+
+/* <<<<<<<?>>>>>>>> */
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-slide img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+.carousel-button:hover {
+    background-color: #2ba497;
+}

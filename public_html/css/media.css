@@ -1,0 +1,547 @@
+@media screen and (max-width:1500px) {
+
+
+    .nav-links-canada.active {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        z-index: 100;
+        top: 170px;
+        padding: 20px 0;
+        background-color: #0b826b;
+        left: 20px;
+        right: 20px;
+        border: none;
+    }
+
+    .nav-links-canada ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 18px;
+        z-index: 100;
+    }
+
+    .nav-links-canada a {
+        display: block;
+       min-width: 250px;
+       width: 100%;
+
+        padding-inline: 10px;
+    }
+
+    /* mysteryo nav */
+    .nav-mysteryo,
+    .nav-links-fiji {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 118px;
+        right: 20px;
+        background-color: #ad97476f;
+        border-radius: 5px;
+        width: 150px;
+        z-index: 1000;
+    }
+
+    .nav-mysteryo li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .nav-mysteryo.show {
+        display: flex;
+    }
+
+    .burger {
+        display: flex;
+        margin-right: 20px;
+        z-index: 1000;
+    }
+
+    .burger.toggle span:nth-child(1) {
+        transform: rotate(45deg) translateY(8px);
+    }
+
+    .burger.toggle span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger.toggle span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-8px);
+    }
+
+    /* mysteryo nav end */
+
+    .nav-links.active,
+    .nav-links-canada.active {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        z-index: 100;
+        right: 20px;
+    }
+
+    .nav-links-canada.active {
+        display: flex;
+        position: absolute;
+        height: 100%;
+        flex-direction: column;
+        z-index: 100;
+        top: 170px;
+        padding: 20px 0;
+        background-color: #0b826b;
+        left: 20px;
+        right: 20px;
+        border: none;
+    }
+
+    .nav-links-fiji.active {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+    }
+
+    .greece-bg::after {
+        display: none;
+    }
+
+    .greece-bg::before {
+        display: none;
+    }
+
+    .iliada-greece-bg {
+        position: absolute;
+        right: 0;
+        top: 607px;
+        width: 100%;
+        max-width: 500px;
+        height: 400px;
+        opacity: .3;
+        background-image: url(../greece.images/hector-and-ajax-.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding-top: 50px;
+        z-index: 900;
+    }
+
+    .navigaciyaposaytu,
+    .navmyst,
+    .nav-links-canada {
+        width: 100%;
+        background-color: rgb(246 237 177 / 0%);
+        /* bottom: 100px; */
+    }
+
+    .navigaciyaposaytu ul,
+    .nav-links-canada ul {
+        list-style-type: none;
+    }
+
+    .nav-links,
+    .nav-links-canada {
+        display: none;
+    }
+
+    .navigaciyaposaytu li,
+    .nav-links>li,
+    .navigaciyaposaytu-about-li,
+    .nav-links-about>li,
+    .nav-mysteryo li {
+        margin: 10px 0;
+        padding: 2px 10px;
+        border-radius: 5px;
+        border-bottom: 1px solid grey;
+        background-color: beige;
+        color: rgb(148, 160, 160);
+        box-shadow: -17px 12px 11px 0px rgba(194, 183, 183, 1);
+        -webkit-box-shadow: -17px 12px 11px 0px rgba(194, 183, 183, 1);
+        -moz-box-shadow: -17px 12px 11px 0px rgba(194, 183, 183, 1);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+
+}
+
+@media screen and (max-width:1400px) {
+
+    .navigaciyaposaytu ul,
+    .navigaciyaposaytu-about ul,
+    .navmyst ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    .content-greece {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .iliada-greece-bg {
+        position: absolute;
+        right: 160px;
+        top: 700px;
+    }
+
+    .greece-bg::after {
+        display: none;
+    }
+
+    .greece-bg::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .iliada-greece-bg {
+        margin-top: 450px;
+        right: 0;
+    }
+
+    .block-img {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    @media screen and (max-width:950px) {
+        /* .container {
+        overflow-x: hidden;
+    } */
+
+        .burger {
+            z-index: 1000;
+        }
+
+        .burger {
+            display: flex;
+            margin-right: 20px;
+        }
+
+        /* .nav-links {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 90px;
+            right: 0;
+            width: 100%;
+            background-color: #e6edb5 !important;
+            text-align: center;
+        }
+
+        .nav-links.active {
+            display: flex;
+            position: absolute;
+            z-index: 100;
+        } */
+
+        .navigaciyaposaytu ul {
+
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+    /* Анімація бургер-меню */
+    /* .burger {
+        z-index: 1000;
+    } */
+
+    .burger.toggle span:nth-child(1) {
+        transform: rotate(45deg) translateY(8px);
+    }
+
+    .burger.toggle span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger.toggle span:nth-child(3) {
+        transform: rotate(-45deg) translateY(-8px);
+    }
+
+    .navbar {
+        position: static;
+    }
+
+    .nav-links {
+        position: static;
+        top: 100px;
+        padding-bottom: 60px;
+        height: max-content;
+    }
+
+    .dropdown-btn::after {
+        display: none;
+    }
+
+
+    @media (max-width: 780px) {
+
+        /* Для мобільних пристроїв */
+        @media (max-width: 780px) {
+            .cirkle {
+                margin-left: 20px;
+            }
+
+            .navbar,
+            .nav-links-about {
+                justify-content: space-between;
+            }
+
+            .burger {
+                display: flex;
+            }
+
+            .iliada-greece-bg {
+                z-index: -1;
+                top: 900px;
+            }
+
+            .nav-links li {
+                margin: 15px 0;
+            }
+
+            .navigaciya,
+            .navmyst,
+            .navigaciyaposaytu {
+                height: max-content;
+                position: relative;
+                top: -86px;
+            }
+
+            .nav-links-canada {
+                margin-top: -30px;
+                z-index: 100;
+            }
+
+            .greece-bg::after {
+                display: none;
+            }
+
+            .greece-bg::before {
+                display: none;
+            }
+
+            .burger.toggle span:nth-child(1) {
+                transform: rotate(45deg) translateY(8px);
+            }
+
+            .burger.toggle span:nth-child(2) {
+                opacity: 0;
+            }
+
+            .burger.toggle span:nth-child(3) {
+                transform: rotate(-45deg) translateY(-8px);
+            }
+
+            .navbar {
+                position: static;
+                display: flex;
+                flex-direction: row;
+            }
+
+            .nav-links {
+                position: static;
+                top: 100px;
+                padding-bottom: 60px;
+                height: max-content;
+            }
+
+            .dropdown-btn::after {
+                display: none;
+            }
+
+            /* навігація china початок */
+
+            .nav {
+                display: none;
+                flex-direction: column;
+                background-color: #333;
+                position: absolute;
+                top: 85px;
+                left: 0;
+                width: 100%;
+            }
+
+            .nav.active {
+                display: flex;
+                z-index: 100;
+            }
+
+            .burger .menu-toggle {
+                display: flex;
+            }
+
+            /* навігація china кінець */
+
+            section {
+
+                font-size: 18px;
+            }
+
+            footer {
+                padding: 20px;
+            }
+
+            footer {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            /* footer .container {
+        flex-direction: column;
+        align-items: center;
+    } */
+
+            footer .newsletter input[type="email"] {
+                width: 100%;
+                margin: 0 0 10px 0;
+            }
+
+            .footer-img {
+                max-width: 300px;
+                margin-bottom: 20px;
+            }
+
+            /* .footer-container {
+        padding-left: 30px;
+        flex-direction: column;
+    } */
+
+
+        }
+
+        @media (max-width: 768px) {
+
+            .menu-toggl {
+                display: none;
+            }
+
+            .nav-link {
+                display: flex;
+                flex-direction: row;
+                position: static;
+                box-shadow: none;
+                background: none;
+            }
+
+            .menu-toggle {
+                display: none;
+            }
+
+            /* .nav-links {
+            display: flex;
+            flex-direction: row;
+            position: static;
+            box-shadow: none;
+            background: none;
+        } */
+
+            .menu-toggle {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: center;
+            }
+
+            nav {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav.active {
+                display: flex;
+            }
+        }
+
+        .wrapper {
+            overflow: hidden;
+        }
+
+        .hero-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .right-aside,
+        .main-aside {
+            max-width: 100%;
+            margin-inline: 0;
+            border: 2px solid #eee;
+            height: 500px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+
+        .info-papua {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .wrapper-carousel {
+            max-width: 500px;
+        }
+
+        .block-img {
+            gap: 50px;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        .content-china {
+            flex-direction: column;
+        }
+
+        .content-china>p,
+        .block-carausel>p {
+            margin-bottom: 50px;
+        }
+
+        .content-china {
+            flex-direction: column;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        .contact-form {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        footer {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* footer form {
+        max-width: 700px;
+    } */
+    }
+
+    @media screen and (max-width:535px) {
+
+        header {
+            padding: 0px 20px;
+        }
+
+        .greece-bg::after {
+            display: none;
+        }
+
+        .greece-bg::before {
+            display: none;
+        }
+    }

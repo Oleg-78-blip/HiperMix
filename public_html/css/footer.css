@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX+Guides&display=swap');
+
+footer {
+    font-family: "Playwrite MX Guides", cursive;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    color: rgb(255, 204, 0);
+    padding: 50px;
+    text-align: justify
+}
+
+.donate {
+    max-width: 300px;
+}
+
+.donate ul {
+    display: flex;
+    gap: 10px;
+}
+
+footer form {
+    max-width: 150px;
+}
+
+.footer-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    background: linear-gradient(135deg, #2c3e5032, #34495eb9);
+}
+
+.footer-img {
+    display: block;
+    max-width: 300px;
+}
+
+.footer-column {
+    min-width: 200px;
+    max-width: 500px;
+    align-self: center0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+/* footer end */

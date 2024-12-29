@@ -1,0 +1,399 @@
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.header-greece {
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 5px solid rgb(42, 114, 165);
+    background-color: #40b4f3b7;
+    color: #ffffff;
+    padding: 10px 20px;
+    /* position: fixed; */
+    z-index: 10;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+.cirkle {
+    position: relative;
+    border-radius: 50%;
+    border: 6px solid blanchedalmond;
+    width: max-content;
+    padding: 8px 20px;
+    background: rgb(254, 253, 248);
+    background: radial-gradient(circle, rgba(254, 253, 248, 1) 0%, rgba(238, 225, 94, 1) 30%, rgba(216, 214, 212, 1) 86%, rgba(155, 155, 154, 1) 100%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} */
+
+.nav-links {
+    max-width: 1300px;
+    display: flex;
+    list-style: none;
+    padding-inline: 50px;
+    text-align: center;
+    /* flex-direction: column; */
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-links>li {
+    margin: 10px 0;
+    padding: 2px 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid grey;
+    background-color: beige;
+    color: rgb(148, 160, 160);
+    box-shadow: -17px 12px 11px 0px rgba(194, 183, 183, 1);
+    -webkit-box-shadow: -17px 12px 11px 0px rgba(194, 183, 183, 1);
+    -moz-box-shadow: -17px 12px 11px 0px rgba(194, 183, 183, 1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger span {
+    background-color: white;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+
+.greece-bg a {
+    color: inherit;
+}
+
+.greece-bg {
+    position: relative;
+    width: 100%;
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #2c3e50;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.greece-bg::after {
+    position: fixed;
+    content: url(../greece.images/column-2.1.png);
+    top: 100px;
+    left: 0;
+    z-index: 100;
+}
+
+.greece-bg::before {
+    position: fixed;
+    content: url(../greece.images/column-2.1.png);
+    top: 100px;
+    right: 0;
+    z-index: 200;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navigaciyaposaytu {
+    width: 80%;
+    margin: 76px auto 0;
+    padding: 0 60px 0 60px;
+    border-radius: 10px;
+    border: 2px solid #d1d6e3;
+    border-bottom: 2px solid #f6a486;
+    background: rgb(226, 227, 221);
+    background: radial-gradient(circle, rgba(226, 227, 221, 0.1397973496039041) 0%, rgba(213, 213, 205, 1) 42%, rgba(246, 243, 223, 1) 96%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.navigaciyaposaytu-greece {
+    position: fixed;
+    z-index: 5;
+    width: 80%;
+    top: 27px;
+    left: 0;
+    right: 0;
+    padding: 0 60px;
+}
+
+.navigaciyaposaytu a {
+    text-decoration: none;
+    color: #d4af37;
+}
+
+.navigaciyaposaytu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+.menu-link {
+    position: relative;
+}
+
+.menu-link:hover::before {
+    transform: scaleX(1);
+    -webkit-transition: s;
+    -moz-transition: s;
+    -ms-transition: s;
+    -o-transition: s;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform-origin: left;
+    transition: .5s;
+}
+
+.menu-link::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgb(148, 160, 160);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    -webkit-transform: o;
+    -moz-transform: o;
+    -ms-transform: o;
+    -o-transform: o;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+/* .hero-info {
+    display: flex;
+} */
+
+.hero-greece {
+    padding-top: 150px;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 20% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes example {
+    from {
+        color: rgb(83, 194, 234);
+    }
+
+    to {
+        color: rgb(237, 164, 37);
+    }
+}
+
+.baner {
+    animation: example 2s infinite;
+    -webkit-animation: example 2s infinite;
+    margin-top: 50px;
+}
+
+.content-greece h1 {
+    margin: 100px;
+}
+
+.iliada-greece-bg {
+    position: absolute;
+    right: 160px;
+    top: 500px;
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    opacity: .3;
+    background-image: url(../greece.images/hector-and-ajax-.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    z-index: 900;
+}
+
+.greece-images {
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.greece-images h1 {
+    max-width: 500px;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+.greece-images {
+    position: relative;
+    text-align: left;
+    float: left;
+    border: none;
+    opacity: 1;
+}
+
+.text-greece {
+    /* width: 100%;
+    max-width: 1100px; */
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    background-image: url(../greece.images/papyrus-2.png);
+    color: #000000;
+    opacity: .7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+
+.text-greece li {
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.text-greece li::marker {
+    font-weight: 700;
+}
+
+.text-greece a {
+    text-decoration: underline;
+    font-weight: 500;
+    color: #000;
+    font-size: 18px;
+    top: 0;
+    left: 10px;
+
+}
+
+.block-img a {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    top: 0;
+    left: 10px;
+    text-decoration: underline;
+    color: rgb(250, 250, 250);
+    z-index: 2;
+}
+
+.carousel {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    top: 50px;
+}
+
+/* частково прихований блок */
+.text-block-greece {
+    /* background-color: white; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-height: 150px;
+    /*Початковависотаблоку*/
+    margin: 50px 0 30px 0;
+    text-align: left;
+    overflow-y: hidden;
+    transition: max-height 0.3s ease;
+    /*Плавназмінависоти*/
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.text-block-greece h2 {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.text-block-greece.open {
+    max-height: 500px;
+}
+
+.toggleButton {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    width: max-content;
+}
+
+/* прихований блок кінець */

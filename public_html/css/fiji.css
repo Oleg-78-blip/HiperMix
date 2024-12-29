@@ -1,0 +1,174 @@
+.fiji-bg {
+    /* display: flex; */
+    width: 100%;
+    background-image: url(../images-fiji/fiji-bg-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(143 167 114);
+    overflow-x: hidden;
+}
+
+.border-bottom-a {
+    text-decoration: underline;
+    color: cornsilk;
+}
+
+.header-fiji {
+    padding: 20px;
+    background-color: rgb(28, 122, 91) !important;
+    margin-bottom: 100px;
+}
+
+.nav-links-fiji {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigaciyaposaytu li, .nav-links-fiji>li, .navigaciyaposaytu-about-li, .nav-links-about>li {
+    margin: 10px 0;
+    padding: 2px 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid grey;
+    background-color: beige;
+    color: rgb(148, 160, 160);
+    box-shadow: -17px 12px 11px 0px rgba(194, 183, 183, 1);
+    -webkit-box-shadow: -17px 12px 11px 0px rgba(194, 183, 183, 1);
+    -moz-box-shadow: -17px 12px 11px 0px rgba(194, 183, 183, 1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    /* background-color: #4b5f6bad; */
+    /* padding: 15px 50px; */
+    z-index: 100;
+}
+
+.nav-links-fiji li>a {
+    opacity: .9;
+    font-weight: 500;
+    font-size: 20px;
+    color: #795548;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.nav-links-fiji li>a:hover {
+    padding: 5px 10px;
+    border: 3px solid rgb(255, 255, 0);
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.nav-links-fiji li>a {
+    /* max-width: 200px; */
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.nav-links-fiji a {
+    text-decoration: none;
+    color: r #795548;
+    font-size: 18px;
+}
+
+
+.baner-fiji {
+    margin-bottom: 100px;
+}
+
+.text {
+    margin-right: 20px;
+}
+
+.image-container {
+    border: 15px solid rgb(255 196 43);
+    box-shadow: rgb(247 236 134);
+    border-radius: 10px;
+    max-width: 500px;
+    max-height: 323px;
+    overflow: hidden;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+
+
+.button-fiji-history-more {
+    border-radius: 8pxx;
+    background-color: darkgrey;
+    padding: 10px 25px;
+    max-width: max-content;
+    -webkit-border-radius: 8pxx;
+    -moz-border-radius: 8pxx;
+    -ms-border-radius: 8pxx;
+    -o-border-radius: 8pxx;
+}
+
+.aside-fiji {
+    background-image: url(../images-fiji/aside-fiji.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    width: 100%;
+    min-width: 300px;
+    height: fit-content;
+    margin-left: 50px;
+    line-height: 2rem;
+    color: var(--color-body);
+    opacity: .7;
+}
+
+.fiji-images {
+    border: none !important;
+}
+
+.contact-form-fiji {
+    border: none !important;
+}
+
+.footer-menu-fiji {
+    color: azure;
+}
